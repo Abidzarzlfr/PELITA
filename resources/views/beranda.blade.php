@@ -77,7 +77,7 @@
         </ul>
         <div class="login-regis">
           <a class="btn btn-dark" href="/login">Login</a>
-          <a class="btn btn-primary" type="submit">Register</a>
+          <a class="btn btn-primary" href="/register">Register</a>
         </div>
       </div>
     </div>
