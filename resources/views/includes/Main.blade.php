@@ -13,7 +13,7 @@
             /* This property ensures the image covers the specified dimensions */
         }
     </style>
-    <title>Document</title>
+    <title>PELITA</title>
 </head>
 
 <body>

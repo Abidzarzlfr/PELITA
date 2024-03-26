@@ -18,7 +18,8 @@
     >
       <div class="card-body">
         <h5 class="card-title fw-bolder text-primary">PELITA</h5>
-        <div class="input-group mb-3 mt-5">
+        <form action="" method="post">
+          <div class="input-group mb-3 mt-5">
           <span class="input-group-text" id="inputGroup-sizing-default"
             >Email</span
           >
@@ -40,13 +41,14 @@
             aria-describedby="inputGroup-sizing-default"
           />
         </div>
+        <a href="#" class="btn btn-primary mt-5">Login</a>
+        </form>
         <div class="card-text">
           <a href=""> Lupa password! </a>
         </div>
         <div class="card-text">
           <a href=""> Belum punya akun? </a>
         </div>
-        <a href="#" class="btn btn-primary mt-5">Login</a>
       </div>
     </div>
   </body>

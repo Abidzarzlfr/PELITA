@@ -18,43 +18,47 @@
     >
       <div class="card-body">
         <h5 class="card-title fw-bolder text-primary">PELITA</h5>
-        <div class="input-group mb-3 mt-5">
-          <span class="input-group-text" id="inputGroup-sizing-default"
-            >Email</span
-          >
-          <input
-            type="email"
-            class="form-control"
-            aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default"
-          />
-        </div>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="inputGroup-sizing-default"
-            >Username</span
-          >
-          <input
-            type="text"
-            class="form-control"
-            aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default"
-          />
-        </div>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="inputGroup-sizing-default"
-            >Password</span
-          >
-          <input
-            type="password"
-            class="form-control"
-            aria-label="Sizing example input"
-            aria-describedby="inputGroup-sizing-default"
-          />
-        </div>
+        <form action="" method="post">
+          <div class="input-group mb-3 mt-5">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >Email</span
+            >
+            <input
+              placeholder="abidzar@gmail.com"
+              type="email"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >Username</span
+            >
+            <input
+              placeholder="abidzar"
+              type="text"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default"
+              >Password</span
+            >
+            <input
+              type="password"
+              class="form-control"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-default"
+            />
+          </div>
+          <a href="#" class="btn btn-primary mt-5">Register</a>
+        </form>
         <div class="card-text">
           <a href=""> Sudah punya akun? </a>
         </div>
-        <a href="#" class="btn btn-primary mt-5">Register</a>
       </div>
     </div>
   </body>
